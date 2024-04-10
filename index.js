@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.static('.'));
 app.get('/', function(req, res){
-   res.send('<h1>real?</h1>');
+   res.send('<h1>really</h1>');
 });
 app.get('/hey', function(req, res){
    res.send('<h1>wowaa</h1>');
